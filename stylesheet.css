@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+   html,body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,div {
+    margin: 0;
+    padding: 0;
+  }
+   
+  
+   .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+  }
+  
+   header {
+    height: 120px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
+    
+  }
+    .header-left {
+    margin: auto;
+    
+  }
+  
+  
+  .header-right {
+    float: right;
+    margin: 25px auto;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  main {
+    margin:250px 225px;
+    font-size: 50px;
+  }
